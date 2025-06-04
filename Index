@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrünForm - 3D & Pflanzen Design</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f9f4;
+            color: #2f4f4f;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #88c999;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #bde3c4;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #2f4f4f;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .product {
+            background-color: #e6f3ec;
+            border: 1px solid #c3decf;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        footer {
+            background-color: #88c999;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GrünForm</h1>
+        <p>Kreative Pflanzenlösungen & 3D-Druck-Designs</p>
+    </header>
+    <nav>
+        <a href="#produkte">Produkte</a>
+        <a href="#ideen">Ideen</a>
+        <a href="#kontakt">Kontakt</a>
+    </nav>
+    <section id="produkte">
+        <h2>Unsere Produkte</h2>
+        <div class="product">
+            <h3>3D-Blumentopf "LeafyTwist"</h3>
+            <p>Ein spiralförmiger Topf, inspiriert von Pflanzenwachstum – ideal für Sukkulenten und Ableger.</p>
+        </div>
+        <div class="product">
+            <h3>Pflanzenstecker "SunTag"</h3>
+            <p>Wetterfester Stecker mit Sonnenmotiv – beschriftbar mit Pflanzennamen oder Gießintervallen.</p>
+        </div>
+        <div class="product">
+            <h3>Luftwurzel-Vase "AirRoot Loop"</h3>
+            <p>Design-Vase für Monstera & Co. – aus recyceltem PLA mit integriertem Wurzelbehälter.</p>
+        </div>
+    </section>
+    <section id="ideen">
+        <h2>Kreative Ideen</h2>
+        <p>Wir verbinden Pflanzenleidenschaft mit modernem 3D-Druck – für einzigartige Dekorationen, nützliche Tools und grüne Designlösungen. Entdecke unsere Tutorials, Pflegetipps und nachhaltige Upcycling-Konzepte!</p>
+    </section>
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p>Du möchtest mitmachen, bestellen oder Fragen stellen? Schreib uns an <strong>kontakt@gruenform.de</strong></p>
+    </section>
+    <footer>
+        <p>&copy; 2025 GrünForm – Pflanzen & 3D-Druck mit Herz</p>
+    </footer>
+</body>
+</html>
