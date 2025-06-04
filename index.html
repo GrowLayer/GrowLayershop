@@ -1,89 +1,122 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GrünForm - 3D & Pflanzen Design</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f3f9f4;
-            color: #2f4f4f;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #88c999;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            background-color: #bde3c4;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: #2f4f4f;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        section {
-            padding: 40px;
-            max-width: 1000px;
-            margin: auto;
-        }
-        .product {
-            background-color: #e6f3ec;
-            border: 1px solid #c3decf;
-            border-radius: 10px;
-            padding: 20px;
-            margin-bottom: 30px;
-        }
-        footer {
-            background-color: #88c999;
-            color: white;
-            text-align: center;
-            padding: 15px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GrowLayer – Pflanzen trifft 3D-Druck</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #f0f9f1;
+      color: #2e4d3d;
+    }
+    header {
+      background: #2e4d3d;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      background: #c2e0c6;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #2e4d3d;
+      font-weight: bold;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .intro img {
+      width: 100%;
+      border-radius: 1rem;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .product {
+      background: white;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product img {
+      max-width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: .5rem;
+    }
+    footer {
+      background: #2e4d3d;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>GrünForm</h1>
-        <p>Kreative Pflanzenlösungen & 3D-Druck-Designs</p>
-    </header>
-    <nav>
-        <a href="#produkte">Produkte</a>
-        <a href="#ideen">Ideen</a>
-        <a href="#kontakt">Kontakt</a>
-    </nav>
-    <section id="produkte">
-        <h2>Unsere Produkte</h2>
-        <div class="product">
-            <h3>3D-Blumentopf "LeafyTwist"</h3>
-            <p>Ein spiralförmiger Topf, inspiriert von Pflanzenwachstum – ideal für Sukkulenten und Ableger.</p>
-        </div>
-        <div class="product">
-            <h3>Pflanzenstecker "SunTag"</h3>
-            <p>Wetterfester Stecker mit Sonnenmotiv – beschriftbar mit Pflanzennamen oder Gießintervallen.</p>
-        </div>
-        <div class="product">
-            <h3>Luftwurzel-Vase "AirRoot Loop"</h3>
-            <p>Design-Vase für Monstera & Co. – aus recyceltem PLA mit integriertem Wurzelbehälter.</p>
-        </div>
-    </section>
-    <section id="ideen">
-        <h2>Kreative Ideen</h2>
-        <p>Wir verbinden Pflanzenleidenschaft mit modernem 3D-Druck – für einzigartige Dekorationen, nützliche Tools und grüne Designlösungen. Entdecke unsere Tutorials, Pflegetipps und nachhaltige Upcycling-Konzepte!</p>
-    </section>
-    <section id="kontakt">
-        <h2>Kontakt</h2>
-        <p>Du möchtest mitmachen, bestellen oder Fragen stellen? Schreib uns an <strong>kontakt@gruenform.de</strong></p>
-    </section>
-    <footer>
-        <p>&copy; 2025 GrünForm – Pflanzen & 3D-Druck mit Herz</p>
-    </footer>
+  <header>
+    <h1>GrowLayer</h1>
+    <p>Pflanzenliebe & 3D-Druck-Innovation vereint</p>
+  </header>
+  <nav>
+    <a href="#about">Über Uns</a>
+    <a href="#produkte">Produkte</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+  <section id="about" class="intro">
+    <h2>Unsere Vision</h2>
+    <p>GrowLayer steht für kreative, nachhaltige Lösungen rund um Zimmerpflanzen und individuellen 3D-Druck. Von stylischen Pflanztöpfen über clevere Bewässerungssysteme bis zu botanischen Accessoires – hier wachsen Ideen.</p>
+    <img src="https://images.unsplash.com/photo-1616627454262-f12c1dc47b9d" alt="Pflanzen mit 3D Topf" />
+  </section>
+
+  <section id="produkte">
+    <h2>Unsere Produkte</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1603100834047-b29c7f9a9678" alt="Selbstbewässernder Topf" />
+        <h3>Selbstbewässernder Topf</h3>
+        <p>Ein intelligenter 3D-gedruckter Pflanztopf mit integriertem Wasserspeicher. Ideal für vielbeschäftigte Pflanzenfreunde.</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1616627454472-abc36fc1b504" alt="Pflanzenregal Element" />
+        <h3>Modulares Pflanzenregal</h3>
+        <p>Flexible 3D-Elemente zur Gestaltung individueller Pflanzenecken. Kombinierbar, erweiterbar und stabil.</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1588686439690-92c8beed5e25" alt="Dekoschild Pflanzenfreund" />
+        <h3>Botanisches Dekoschild</h3>
+        <p>Persönliche 3D-Schilder mit Pflanzenmotiven oder Sprüchen. Perfekt als Geschenk oder für deine grüne Oase.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontakt">
+    <h2>Kontakt</h2>
+    <p>Du hast Fragen, Sonderwünsche oder möchtest Großmengen bestellen? Schreib uns!</p>
+    <p><strong>Email:</strong> kontakt@growlayer.de</p>
+    <p><strong>Instagram:</strong> @growlayer</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 GrowLayer – Pflanzen & 3D-Druck mit Stil</p>
+  </footer>
 </body>
 </html>
